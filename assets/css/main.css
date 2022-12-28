@@ -610,12 +610,118 @@
     margin: 0 0 20px;
 }
 
-.best-recoment__price {}
+.best-recoment__price {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: 10px 0 30px;
+    color: var(--text-color-second);
+}
+
+.best-recoment__price-old {
+    color: #dadada;
+    text-decoration: line-through;
+}
+
+.best-recoment__link {
+    position: absolute;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    letter-spacing: 2px;
+    padding: 15px 35px;
+    color: var(--white-color);
+    background-color: #1bbc9b;
+}
 
 .best-recoment__section {
-    padding: 20px 0px 20px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .best-recoment__img {
     width: 100%;
+}
+
+.best-recoment__time {
+    background-color: #14b9d5;
+}
+
+.row .best-recoment__time {
+    margin: -60px auto 0;
+}
+
+.best-recoment__time {
+    position: relative;
+    max-width: 70%;
+    z-index: 1;
+}
+
+.best-recoment__time-remaining {
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--white-color);
+}
+
+.best-recoment__time-remaining::after {
+    position: absolute;
+    content: "/";
+    top: 0px;
+    right: -12px;
+    font-size: 60px;
+    color: #000;
+    opacity: 0.05;
+    font-weight: 100;
+    z-index: 2;
+    line-height: 60px;
+}
+
+.time-remaining__number {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    margin-top: 30px;
+}
+
+.time-remaining__sub {
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.best-tour {
+    margin-top: 30px;
+}
+
+.best-tour__section {
+    display: flex;
+}
+
+.best-tour__img {
+    width: 50px;
+    height: 50px;
+}
+
+.best-tour__content {
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+
+.best-tour__heading {
+    margin: 0;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--text-color-second);
+}
+
+.best-tour__info {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--text-color);
+    margin: 20px 0;
+}
+
+.best-tour__more {
+    font-size: 14px;
+    line-height: 14px;
+    color: #14b9d5;
+    text-decoration: none;
 }

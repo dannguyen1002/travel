@@ -30,6 +30,18 @@
     .first-slider__btn {
         margin: 20px 0;
     }
+    .row .best-recoment__time {
+        margin: -3px 0 0;
+    }
+    .best-recoment__section {
+        margin-top: 40px;
+    }
+    .best-recoment__time {
+        max-width: 100%;
+    }
+    .best-tour__section {
+        margin: 15px 0;
+    }
 }
 
 
@@ -52,6 +64,12 @@
         margin: 8px 16px;
     }
     .first-slider {
+        padding: 15px;
+    }
+    .best-recoment__time-remaining::after {
+        display: none;
+    }
+    .best-tour__section {
         padding: 15px;
     }
 }
