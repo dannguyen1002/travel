@@ -42,12 +42,22 @@
     .best-tour__section {
         margin: 15px 0;
     }
+    .footer__heading {
+        float: none;
+    }
 }
 
 
 /* Tablet */
 
-@media (min-width: 740px) and (max-width: 1024px) {}
+@media (min-width: 740px) and (max-width: 1024px) {
+    .footer__heading {
+        margin: 0;
+    }
+    .footer__input {
+        max-width: 100%;
+    }
+}
 
 
 /* Mobile */
@@ -71,5 +81,15 @@
     }
     .best-tour__section {
         padding: 15px;
+    }
+    .footer__input-container {
+        margin-left: 50px;
+        margin-right: 50px;
+        display: grid;
+    }
+    .footer__input {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 10px;
     }
 }

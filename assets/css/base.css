@@ -15,6 +15,10 @@ html {
     box-sizing: border-box;
 }
 
+li {
+    list-style: none;
+}
+
 .link-btn {
     text-decoration: none;
     border-radius: 30px;

@@ -479,7 +479,7 @@
 
 .proposales-packages-item:hover .proposales-packages-destination {
     display: flex;
-    animation: fadeIn ease-in 0.4s;
+    animation: fadeIn ease 1s;
 }
 
 
@@ -495,6 +495,7 @@
     background-color: #14b9d5;
     text-align: center;
     justify-content: center;
+    /* transition: 1s ease; */
 }
 
 .destination__pack {
@@ -796,7 +797,7 @@
 /* Promotions */
 
 .content__promotions {
-    margin-top: 60px;
+    margin: 60px 0;
 }
 
 .promotions__packages {
@@ -905,8 +906,6 @@
     letter-spacing: 1px;
 }
 
-.promotions__btn {}
-
 .promotions__link {
     display: inline-block;
     font-size: 1.4rem;
@@ -926,4 +925,150 @@
 
 .promotions__list:nth-child(3) .promotions__link {
     background-color: #ba71da;
+}
+
+
+/* Footer */
+
+.footer {
+    padding-bottom: 60px;
+    background: url('/assets/img/footer/parallax-7.jpg') center /cover no-repeat;
+}
+
+.footer__heading-container {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 50px;
+}
+
+.footer__heading {
+    float: right;
+    margin: 0 50px;
+}
+
+.footer__first-heading {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    line-height: 1.4rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer__second-heading {
+    color: var(--text-color-second);
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    margin-top: 20px;
+}
+
+.footer__input-container {
+    margin: 25px 0 30px;
+}
+
+.footer__input {
+    width: 75%;
+    max-width: 260px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid #f1f1f1;
+    margin-right: 20px;
+}
+
+.footer__input:focus {
+    outline: none;
+}
+
+.footer__send--btn {
+    background-color: #14b9d4;
+    color: var(--white-color);
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+}
+
+.footer-section {
+    padding: 35px 30px;
+    background-color: var(--white-color);
+}
+
+.footer__logo-img {
+    padding: 10px 0 25px;
+    width: 150px;
+}
+
+.footer__desc {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    letter-spacing: 1px;
+}
+
+.footer-social__list {
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-item {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 2.7rem;
+    margin-right: 20px;
+}
+
+.footer-item__link {
+    text-decoration: none;
+}
+
+.footer-item__icon {
+    font-size: 2.2rem;
+    color: var(--text-color-second);
+}
+
+.footer-info__heading,
+.footer-partners-heading,
+.footer-promo__heading {
+    color: var(--text-color-second);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    letter-spacing: 2px;
+}
+
+.footer-info__list,
+.footer-partners__list,
+.footer-promo__list {
+    padding-left: 0;
+}
+
+.footer-info__item,
+.footer-partners__item,
+.footer-promo__item {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 2.7rem;
+}
+
+.footer-info__item a,
+.footer-partners__item a,
+.footer-promo__item a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer-theme {
+    background-color: #14b9d5;
+    text-align: center;
+}
+
+.footer-theme__content {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: var(--white-color);
 }
