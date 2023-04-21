@@ -91,15 +91,20 @@
                         <a class="link-btn header__navbar-btn "> BOOK NOW</a>
                     </ul>
                     <!-- Menu bars on PC -->
-                    <button class="header__menu hide-on-mobile-tablet">
-                        <i class="header__menu-icon fa-solid fa-bars"></i>
-                    </button>
+                    <div id="menu" class="hide-on-mobile-tablet fas fa-bars">
+                        <!-- <i class="header__menu-icon fa-solid fa-bars"></i> -->
+                    </div>
 
                     <!-- Menu PC -->
-                    <div class="menu-on-pc">
-                        <button class="close__menu">
+                    <div class="menu-on-pc" id="navbar">
+                        <div class="menu-wrapper">
+                            <div id="menu-close" class="hide-on-mobile-tablet fas fa-bars">
+                                <!-- <i class="header__menu-icon fa-solid fa-bars"></i> -->
+                            </div>
+                        </div>
+                        <!-- <button class="close__menu">
                             <i class="close__menu-btn fa-solid fa-circle-xmark"></i>
-                        </button>
+                        </button> -->
                         <div class="menu__section">
                             <h3 class="menu__section-heading">BEST</h3>
                             <h2 class="menu__section-sub-heading"><u>PACKAGES</u></h2>
@@ -219,9 +224,9 @@
                     </div>
 
                     <!-- Menu bars on mobile & tablet-->
-                    <div class="header__menu-nav">
+                    <!-- <div class="header__menu-nav">
                         <i class="header__menu-icon fa-solid fa-bars"></i>
-                    </div>
+                    </div> -->
                 </nav>
             </div>
 
@@ -300,7 +305,7 @@
 
                 <div class="proposals__packages">
                     <div class="grid wide">
-                        <div class="row">
+                        <div class="row proposals__container">
                             <div class="col l-4 m-6 c-12">
                                 <div class="proposales-packages-item">
                                     <div class="proposales-packages-item__section">
